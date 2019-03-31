@@ -3,8 +3,9 @@ package version
 import (
 	"fmt"
 	"github.com/go-dr/dr-ctl/cmd/core"
-	"github.com/go-dr/dr-ctl/version"
 	"github.com/spf13/cobra"
+
+	appVer "github.com/go-dr/dr-ctl/version"
 )
 
 func init() {
@@ -14,7 +15,7 @@ func init() {
 		Long:  "version information for application",
 		Run: func(cmd *cobra.Command, args []string) {
 			fmt.Printf("%s \nBuildTime:%s\nGitHash:%s\n",
-				version.Version, version.BuildTime, version.GitHash)
+				appVer.Version, appVer.BuildTime, appVer.GitHash)
 		},
 	}
 
