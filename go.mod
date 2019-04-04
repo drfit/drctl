@@ -1,4 +1,4 @@
-module github.com/go-dr/dr-ctl
+module github.com/go-dr/dr.ctl
 
 require (
 	github.com/spf13/cobra v0.0.3

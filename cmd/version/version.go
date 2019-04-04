@@ -2,10 +2,10 @@ package version
 
 import (
 	"fmt"
-	"github.com/go-dr/dr-ctl/cmd/core"
+	"github.com/go-dr/dr.ctl/cmd/core"
 	"github.com/spf13/cobra"
 
-	appVer "github.com/go-dr/dr-ctl/version"
+	appVer "github.com/go-dr/dr.ctl/version"
 )
 
 func init() {

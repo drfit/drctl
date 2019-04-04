@@ -1,8 +1,8 @@
 package api
 
 import (
-	"github.com/go-dr/dr-ctl/cmd/core"
-	"github.com/go-dr/dr-ctl/pkg/openapi"
+	"github.com/go-dr/dr.ctl/cmd/core"
+	"github.com/go-dr/dr.ctl/pkg/openapi"
 	"github.com/spf13/cobra"
 )
 
